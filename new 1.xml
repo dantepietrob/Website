@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+  <sets>
+  <set>
+	  <name>CUSTOM</name>
+	  <longname>custom cards</longname>
+	  <settype>Custom</settype>
+	  <releasedate>2023-07-14</releasedate>
+	</set>
+	<set>
+	  <name>BROOD</name>
+	  <longname>brood custom cards</longname>
+	  <settype>Custom</settype>
+	  <releasedate>2023-07-26</releasedate>
+	</set>
+	<set>
+	  <name>HOLO</name>
+	  <longname>hololive custom cards</longname>
+	  <settype>Custom</settype>
+	  <releasedate>2023-07-14</releasedate>
+	</set>
+	<set>
+	  <name>POKE</name>
+	  <longname>pokemon custom cards</longname>
+	  <settype>Custom</settype>
+	  <releasedate>2023-07-18</releasedate>
+	</set>
+	<set>
+	  <name>OTHR</name>
+	  <longname>other custom cards</longname>
+	  <settype>Custom</settype>
+	  <releasedate>2023-07-14</releasedate>
+	</set>
+  </sets>
+  <cards>
+	<card>
+			<!--Fubuki alt art-->
+            <name>Light-Paws, Emperor's Voice (HOLO)</name>
+            <text>Whenever an Aura enters the battlefield under your control, if you cast it, you may search your library for an Aura card with mana value less than or equal to that Aura and with a different name than each Aura you control, put that card onto the battlefield attached to Light-Paws, Emperor's Voice, then shuffle.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Fox Advisor</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>1W</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>2</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/1D0j5ZV.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Luna alt art-->
+            <name>Kenrith, the Returned King (HOLO)</name>
+            <text>{R}: All creatures gain trample and haste until end of turn.
+{1}{G}: Put a +1/+1 counter on target creature.
+{2}{W}: Target player gains 5 life.
+{3}{U}: Target player draws a card.
+{4}{B}: Put target creature card from a graveyard onto the battlefield under its owner's control.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>5/5</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Human Noble</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4W</manacost>
+                <coloridentity>WUBRG</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/4hCPWvz.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Irys alt art-->
+            <name>Rubinia Soulsinger (HOLO)</name>
+            <text>You may choose not to untap Rubinia Soulsinger during your untap step.
+{T}: Gain control of target creature for as long as you control Rubinia and Rubinia remains tapped.</text>
+            <prop>
+                <format-premodern>legal</format-premodern>
+                <format-legacy>legal</format-legacy>
+                <pt>2/3</pt>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Legendary Creature — Faerie</type>
+                <format-commander>legal</format-commander>
+                <format-oldschool>legal</format-oldschool>
+                <side>front</side>
+                <manacost>2GWU</manacost>
+                <coloridentity>WUG</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WUG</colors>
+                <format-duel>legal</format-duel>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/D2IUhjG.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Kronii alt art-->
+            <name>Teferi, Time Raveler (HOLO)</name>
+            <text>Each opponent can cast spells only any time they could cast a sorcery.
+[+1]: Until your next turn, you may cast sorcery spells as though they had flash.
+[−3]: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <loyalty>4</loyalty>
+                <format-vintage>legal</format-vintage>
+                <format-pioneer>banned</format-pioneer>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Teferi</type>
+                <format-explorer>banned</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>1WU</manacost>
+                <coloridentity>WU</coloridentity>
+                <maintype>Planeswalker</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WU</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/UDlkdKS.jpg">HOLO</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+			<!--Omega alpha alt art-->
+            <name>Jodah, the Unifier (HOLO)</name>
+            <text>Legendary creatures you control get +X/+X, where X is the number of legendary creatures you control.
+Whenever you cast a legendary spell from your hand, exile cards from the top of your library until you exile a legendary nonland card with lesser mana value. You may cast that card without paying its mana cost. Put the rest on the bottom of your library in a random order.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>5/5</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Human Wizard</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>WUBRG</manacost>
+                <coloridentity>WUBRG</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WUBRG</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="mythic" picURL="https://cdn.discordapp.com/attachments/786315591064879114/1130593562623488161/Jodah_the_Unifier_Omega_1.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Ayame alt art-->
+            <name>Isshin, Two Heavens as One (HOLO)</name>
+            <text>If a creature attacking causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>3/4</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Human Samurai</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>RWB</manacost>
+                <coloridentity>WBR</coloridentity>
+                <maintype>Creature</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WBR</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/Ry3KZxo.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Kanata alt art-->
+            <name>Sublime Archangel (HOLO)</name>
+            <text>Flying
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Other creatures you control have exalted. (If a creature has multiple instances of exalted, each triggers separately.)</text>
+            <prop>
+                <colors>W</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Creature — Angel</type>
+                <side>front</side>
+                <pt>4/3</pt>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>2WW</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>4</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/cKywGLf.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Rin Kaenbyou alt art-->
+            <name>Soulherder (OTHR)</name>
+            <text>Whenever a creature is exiled from the battlefield, put a +1/+1 counter on Soulherder.
+At the beginning of your end step, you may exile another target creature you control, then return that card to the battlefield under its owner's control.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>1/1</pt>
+                <format-paupercommander>restricted</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Spirit</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>1WU</manacost>
+                <coloridentity>WU</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WU</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/SXaM3Dg.png">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Pekora alt art-->
+            <name>Preston, the Vanisher (HOLO)</name>
+            <text>Whenever another nontoken creature enters the battlefield under your control, if it wasn't cast, create a token that's a copy of that creature, except it's a 0/1 white Illusion.
+{1}{W}, Sacrifice five Illusions: Exile target nonland permanent.</text>
+            <prop>
+                <colors>W</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Legendary Creature — Rabbit Wizard</type>
+                <side>front</side>
+                <pt>2/5</pt>
+                <format-legacy>legal</format-legacy>
+                <manacost>3W</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>4</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/OLbsDJL.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Yorion alt art-->
+            <name>Yorion, Sky Nomad (OTHR)</name>
+            <text>Companion — Your starting deck contains at least twenty cards more than the minimum deck size. (If this card is your chosen companion, you may put it into your hand from outside the game for {3} as a sorcery.)
+Flying
+When Yorion enters the battlefield, exile any number of other nonland permanents you own and control. Return those cards to the battlefield at the beginning of the next end step.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>4/5</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Bird Serpent</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3{W/U}{W/U}</manacost>
+                <coloridentity>WU</coloridentity>
+                <maintype>Creature</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>WU</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>banned</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/PrDDZoa.png">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Gura alt art-->
+            <name>Thassa, Deep-Dwelling (HOLO)</name>
+            <text>Indestructible
+As long as your devotion to blue is less than five, Thassa isn't a creature.
+At the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.
+{3}{U}: Tap another target creature.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>6/5</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Enchantment Creature — God</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/1meSfji.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Kanata alt art-->
+            <name>Mulldrifter (HOLO)</name>
+            <text>Flying
+When Mulldrifter enters the battlefield, draw two cards.
+Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Elemental</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4U</manacost>
+                <coloridentity>U</coloridentity>
+                <format-pauper>legal</format-pauper>
+                <maintype>Creature</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/UkFagG7.png">HOLO</set>
+            <tablerow>2</tablerow>
+		</card>
+        <card>
+			<!--Kyogre alt art-->
+            <name>Mulldrifter (POKE)</name>
+            <text>Flying
+When Mulldrifter enters the battlefield, draw two cards.
+Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Elemental</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4U</manacost>
+                <coloridentity>U</coloridentity>
+                <format-pauper>legal</format-pauper>
+                <maintype>Creature</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/zs6P9mX.png">POKE</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Ho-oh alt art-->
+            <name>Reveillark (POKE) </name>
+            <text>Flying
+When Reveillark leaves the battlefield, return up to two target creature cards with power 2 or less from your graveyard to the battlefield.
+Evoke {5}{W} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters the battlefield.)</text>
+            <prop>
+                <colors>W</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Creature — Elemental</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <pt>4/3</pt>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>4W</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>5</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/ZzNGJf4.png">POKE</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+			<!--Temma alt art-->
+            <name>Charming Prince (HOLO)</name>
+            <text>When Charming Prince enters the battlefield, choose one —
+• Scry 2.
+• You gain 3 life.
+• Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Human Noble</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>1W</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>2</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/YoZPm1B.jpg">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Eerie Interlude (OTHR)</name>
+            <text>Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Instant</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>2W</manacost>
+                <coloridentity>W</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>Instant</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/C2xGFI3.png">OTHR</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Blue Sun's Zenith (OTHR)</name>
+            <text>Target player draws X cards. Shuffle Blue Sun's Zenith into its owner's library.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Instant</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>XUUU</manacost>
+                <coloridentity>U</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>Instant</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/AIwpPT5.png">OTHR</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Solemn Simulacrum (OTHR)</name>
+            <text>When Solemn Simulacrum enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+When Solemn Simulacrum dies, you may draw a card.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-pioneer>legal</format-pioneer>
+                <layout>normal</layout>
+                <type>Artifact Creature — Golem</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4</manacost>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            
+            <set rarity="rare" picURL="https://i.imgur.com/WzkKnQW.jpg">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Peregrine Drake (OTHR)</name>
+            <text>Flying
+When Peregrine Drake enters the battlefield, untap up to five lands.</text>
+            <prop>
+                <format-premodern>legal</format-premodern>
+                <format-legacy>legal</format-legacy>
+                <pt>2/3</pt>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Drake</type>
+                <format-commander>legal</format-commander>
+                <side>front</side>
+                <manacost>4U</manacost>
+                <coloridentity>U</coloridentity>
+                <format-pauper>banned</format-pauper>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/A9VmCB1.png">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Delver of Secrets (OTHR)</name>
+            <text>At the beginning of your upkeep, look at the top card of your library. You may reveal that card. If an instant or sorcery card is revealed this way, transform Delver of Secrets.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>1/1</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>transform</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Human Wizard</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <cmc>1</cmc>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/eRJh4NY.png">OTHR</set>
+            <related attach="attach">Insectile Aberration (OTHR)</related>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Insectile Aberration (OTHR)</name>
+            <text>Flying</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>3/2</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>transform</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Human Insect</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>back</side>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/21suxev.png">OTHR</set>
+            <related attach="attach">Delver of Secrets (OTHR)</related>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Panharmonicon (OTHR)</name>
+            <text>If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-vintage>legal</format-vintage>
+                <format-pioneer>legal</format-pioneer>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4</manacost>
+                <format-penny>legal</format-penny>
+                <maintype>Artifact</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/RkjJPu1.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Panharmonicon (Miku)</name>
+            <text>If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-vintage>legal</format-vintage>
+                <format-pioneer>legal</format-pioneer>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>4</manacost>
+                <format-penny>legal</format-penny>
+                <maintype>Artifact</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/NfI6xef.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Miku, Idol Eternal</name>
+            <text>Flying
+Whenever Brago, King Eternal deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.</text>
+            <prop>
+                <colors>WU</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Legendary Creature — Spirit Noble</type>
+                <side>front</side>
+                <pt>2/4</pt>
+                <format-legacy>legal</format-legacy>
+                <format-penny>legal</format-penny>
+                <manacost>2WU</manacost>
+                <coloridentity>WU</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>4</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/exANkgu.jpg">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Spine of Ish Sah (OTHR)</name>
+            <text>When Spine of Ish Sah enters the battlefield, destroy target permanent.
+When Spine of Ish Sah is put into a graveyard from the battlefield, return Spine of Ish Sah to its owner's hand.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <type>Artifact</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>7</manacost>
+                <maintype>Artifact</maintype>
+                <cmc>7</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/re4vAzX.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Whispersilk Cloak (FGO) </name>
+            <text>Equipped creature can't be blocked and has shroud. (It can't be the target of spells or abilities.)
+Equip {2}</text>
+            <prop>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <type>Artifact — Equipment</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>3</manacost>
+                <format-pauper>legal</format-pauper>
+                <maintype>Artifact</maintype>
+                <cmc>3</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/zU06gOD.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Well of Lost Dreams (OTHR)</name>
+            <text>Whenever you gain life, you may pay {X}, where X is less than or equal to the amount of life you gained. If you do, draw X cards.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <type>Artifact</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>4</manacost>
+                <maintype>Artifact</maintype>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+                <format-gladiator>legal</format-gladiator>
+                <format-historic>legal</format-historic>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/xUw7Q0p.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Mishra's Workshop (OTHR)</name>
+            <text>{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <type>Land</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>banned</format-legacy>
+                <maintype>Land</maintype>
+                <cmc>0</cmc>
+                <format-oldschool>legal</format-oldschool>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>banned</format-duel>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/J9CKEGi.png">OTHR</set>
+            <tablerow>0</tablerow>
+        </card>
+		<card>
+            <name>Fabled Passage (OTHR)</name>
+            <text>{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <type>Land</type>
+                <format-pioneer>legal</format-pioneer>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-explorer>legal</format-explorer>
+                <maintype>Land</maintype>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+                <format-gladiator>legal</format-gladiator>
+                <format-historic>legal</format-historic>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/nZhNO8N.png">OTHR</set>
+            <tablerow>0</tablerow>
+        </card>
+		<card>
+            <name>Snow-Covered Island (OTHR)</name>
+            <text>({T}: Add {U}.)</text>
+            <prop>
+                <format-premodern>legal</format-premodern>
+                <format-legacy>legal</format-legacy>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-pioneer>legal</format-pioneer>
+                <layout>normal</layout>
+                <type>Basic Snow Land — Island</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <coloridentity>U</coloridentity>
+                <format-pauper>legal</format-pauper>
+                <maintype>Land</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/CZk5BCU.png">OTHR</set>
+            <tablerow>0</tablerow>
+        </card>
+		<card>
+            <name>Evolving Wilds (OTHR)</name>
+            <text>{T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <format-predh>legal</format-predh>
+                <format-alchemy>legal</format-alchemy>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Land</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <format-pauper>legal</format-pauper>
+                <maintype>Land</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="common" picURL="https://i.imgur.com/0Vym9Zs.jpg">OTHR</set>
+            <tablerow>0</tablerow>
+        </card>
+		<card>
+            <name>Teleportation Circle (OTHR)</name>
+            <text>At the beginning of your end step, exile up to one target artifact or creature you control, then return that card to the battlefield under its owner's control.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Enchantment</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3W</manacost>
+                <coloridentity>W</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>Enchantment</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/Td7tVZq.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Traveler's Cloak (Miku)</name>
+            <text>Enchant creature
+As Traveler's Cloak enters the battlefield, choose a land type.
+When Traveler's Cloak enters the battlefield, draw a card.
+Enchanted creature has landwalk of the chosen type. (It can't be blocked as long as defending player controls a land of that type.)</text>
+            <prop>
+                <format-paupercommander>legal</format-paupercommander>
+                <colors>U</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Enchantment — Aura</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <format-pauper>legal</format-pauper>
+                <maintype>Enchantment</maintype>
+                <cmc>3</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+                <format-premodern>legal</format-premodern>
+            </prop>
+            <set rarity="common" picURL="https://i.imgur.com/a2ujse5.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>The Bath Song (HOLO)</name>
+            <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Draw two cards, then discard a card.
+III — Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <format-alchemy>legal</format-alchemy>
+                <format-vintage>legal</format-vintage>
+                <layout>saga</layout>
+                <type>Enchantment — Saga</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Enchantment</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/v4KlD4H.png">HOLO</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Treachery (OTHR)</name>
+            <text>Enchant creature
+When Treachery enters the battlefield, untap up to five lands.
+You control enchanted creature.</text>
+            <prop>
+                <colors>U</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Enchantment — Aura</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <manacost>3UU</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Enchantment</maintype>
+                <cmc>5</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+                <format-premodern>legal</format-premodern>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/qfBkGNJ.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Aether Channeler (HOLO)</name>
+            <text>When Aether Channeler enters the battlefield, choose one —
+• Create a 1/1 white Bird creature token with flying.
+• Return another target nonland permanent to its owner's hand.
+• Draw a card.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-legacy>legal</format-legacy>
+                <pt>2/1</pt>
+                <format-alchemy>legal</format-alchemy>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Human Wizard</type>
+                <format-explorer>legal</format-explorer>
+                <format-brawl>legal</format-brawl>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+                <format-future>legal</format-future>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/LaCXwnQ.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Unquestioned Authority (FGO)</name>
+            <text>Enchant creature
+When Unquestioned Authority enters the battlefield, draw a card.
+Enchanted creature has protection from creatures.</text>
+            <prop>
+                <colors>W</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Enchantment — Aura</type>
+                <format-predh>legal</format-predh>
+                <side>front</side>
+                <format-legacy>legal</format-legacy>
+                <manacost>2W</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Enchantment</maintype>
+                <cmc>3</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+                <format-premodern>legal</format-premodern>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/eGaxJoD.png">OTHR</set>
+            <tablerow>1</tablerow>
+        </card>
+		<card>
+            <name>Emry, Lurker of the Loch (Finana)</name>
+            <text>This spell costs {1} less to cast for each artifact you control.
+When Emry, Lurker of the Loch enters the battlefield, mill four cards.
+{T}: Choose target artifact card in your graveyard. You may cast that card this turn. (You still pay its costs. Timing rules still apply.)</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>1/2</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Legendary Creature — Merfolk Wizard</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>restricted</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/kBzaB9Z.png">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Trinket Mage (HOLO)</name>
+            <text>When Trinket Mage enters the battlefield, you may search your library for an artifact card with mana value 1 or less, reveal that card, put it into your hand, then shuffle.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Human Wizard</type>
+                <format-commander>legal</format-commander>
+                <side>front</side>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <format-penny>legal</format-penny>
+                <format-pauper>legal</format-pauper>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/ISm4DIZ.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Tribute Mage (HOLO)</name>
+            <text>When Tribute Mage enters the battlefield, you may search your library for an artifact card with mana value 2, reveal that card, put it into your hand, then shuffle.</text>
+            <prop>
+                <format-paupercommander>restricted</format-paupercommander>
+                <colors>U</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Creature — Human Wizard</type>
+                <side>front</side>
+                <pt>2/2</pt>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <format-penny>legal</format-penny>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>3</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/3AwQsiR.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Trophy Mage (FGO)</name>
+            <text>When Trophy Mage enters the battlefield, you may search your library for an artifact card with mana value 3, reveal it, put it into your hand, then shuffle.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>2/2</pt>
+                <format-paupercommander>restricted</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Human Wizard</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>2U</manacost>
+                <coloridentity>U</coloridentity>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>U</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="uncommon" picURL="https://i.imgur.com/60OT3kf.png">OTHR</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Crested Sunmare (POKE)</name>
+            <text>Other Horses you control have indestructible.
+At the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>5/5</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <format-pioneer>legal</format-pioneer>
+                <type>Creature — Horse</type>
+                <format-explorer>legal</format-explorer>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3WW</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <format-penny>legal</format-penny>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>5</cmc>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/A3YaVWV.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Archangel of Thune (HOLO)</name>
+            <text>Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Whenever you gain life, put a +1/+1 counter on each creature you control.</text>
+            <prop>
+                <colors>W</colors>
+                <format-vintage>legal</format-vintage>
+                <type>Creature — Angel</type>
+                <format-pioneer>legal</format-pioneer>
+                <side>front</side>
+                <pt>3/4</pt>
+                <format-legacy>legal</format-legacy>
+                <format-modern>legal</format-modern>
+                <manacost>3WW</manacost>
+                <coloridentity>W</coloridentity>
+                <maintype>Creature</maintype>
+                <cmc>5</cmc>
+                <layout>normal</layout>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <format-commander>legal</format-commander>
+                <format-duel>legal</format-duel>
+            </prop>
+            <set rarity="mythic" picURL="https://i.imgur.com/fWHbtOj.png">HOLO</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Restoration Angel (HOLO)</name>
+            <text>Flash
+Flying
+When Restoration Angel enters the battlefield, you may exile target non-Angel creature you control, then return that card to the battlefield under your control.</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>3/4</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>Creature — Angel</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>3W</manacost>
+                <coloridentity>W</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>W</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>4</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/wbKDmnb.png">HOLO</set>
+			<set rarity="rare" picURL="https://i.imgur.com/wbKDmnb.png">CUSTOM</set>
+            <tablerow>2</tablerow>
+        </card>
+		<card>
+            <name>Your Defenses Stand Strong</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/rFtm4RY.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/rFtm4RY.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Dragon Whelp</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/Iq7fwOw.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/Iq7fwOw.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Dragon Brood</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/auLe55j.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/auLe55j.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Fire Dragon</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/ttytIiq.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/ttytIiq.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Tiamat's Cruelty</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/sLg2o2v.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/sLg2o2v.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Cloudspire Dragon</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/qmI5dSF.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/qmI5dSF.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Ravenous Frostwing</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/YBbRVQ2.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/YBbRVQ2.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>You Find Your Inner Strength</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/8cO3EdQ.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/8cO3EdQ.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Mother Dragon</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/qqcSp7h.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/qqcSp7h.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>You Come Across A Dragon's Hoard</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/dCBj0Lz.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/dCBj0Lz.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Crystal Dragon</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/boQQ0iy.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/boQQ0iy.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Covetous Glimmerwing</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/ui4VZdS.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/ui4VZdS.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>The Caverns Fill with Choking Soot</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/luW4voh.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/luW4voh.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Burn the Interlopers</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/aTkrgOk.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/aTkrgOk.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Dragon Nest</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/D9DMVEV.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/D9DMVEV.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Dragon Egg Token</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/oINjABk.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/oINjABk.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Elite Dragon Egg</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/FSxDyDR.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/FSxDyDR.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Tiamat, Enraged</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/VFu6BM5.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/VFu6BM5.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Brimstone Rains from Above</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/kQ0fpR0.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/kQ0fpR0.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Voracious Cinderwing</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/mpj9OtD.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/mpj9OtD.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Dragon Ascension</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/LQAny5w.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/LQAny5w.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+		<card>
+            <name>Hellion Shield</name>
+            <text>Placeholder text</text>
+            <prop>
+                <format-legacy>legal</format-legacy>
+                <pt>0</pt>
+                <format-vintage>legal</format-vintage>
+                <layout>normal</layout>
+                <type>None</type>
+                <format-commander>legal</format-commander>
+                <format-gladiator>legal</format-gladiator>
+                <side>front</side>
+                <manacost>0</manacost>
+                <coloridentity>R</coloridentity>
+                <format-penny>legal</format-penny>
+                <maintype>None</maintype>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <colors>R</colors>
+                <format-duel>legal</format-duel>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-historicbrawl>legal</format-historicbrawl>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" picURL="https://i.imgur.com/9IN20HJ.png">BROOD</set>
+			<set rarity="rare" picURL="https://i.imgur.com/9IN20HJ.png">CUSTOM</set>
+            <tablerow>3</tablerow>
+        </card>
+  </cards>
+</cockatrice_carddatabase>
