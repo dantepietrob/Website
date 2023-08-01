@@ -32,7 +32,7 @@
         <script>
             let file = "https://api.scryfall.com/cards/named?fuzzy=aust+com&format=image"
             fetch(file)
-            .then(x => x.text())
+            .then(x => x.image())
             .then(y => document.getElementById("fucker").src = y);
         </script>
         
