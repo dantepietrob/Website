@@ -23,13 +23,17 @@
       <span id="output">Output</span>
       <button onclick="myFunction()">Try it</button>
 
-<script>
 
-
-
-</script>
 
     <script>
+	document.getElementById("demo").addEventListener("keyup", ({key}) => {
+	    if (key === "Enter") {
+	        myFuntion();
+	    }
+	})
+
+	
+	    
         function myFunction() {
   
         var nameValue = document.getElementById("uniqueID").value;
