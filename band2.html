@@ -15,7 +15,7 @@
         
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>Fetch Now!</button>
-    <img id=image src="https://i.imgur.com/mWiVVwU.jpg">
+    <img id="image" src="https://i.imgur.com/mWiVVwU.jpg">
     <p id="texto" class='text'>Updateddddddd</p>
 
     <script>
@@ -27,6 +27,7 @@
         })
            .then(response => response.json())
            .then(response => alert(response["image_uris"]["large"]))
+            .then(response => document.getElementById("image").src = response["image_uris"]["large"])
         
     </script>
         
