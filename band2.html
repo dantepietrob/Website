@@ -32,9 +32,10 @@
     <script>
         function myFunction() {
   
-
+        var nameValue = document.getElementById("uniqueID").value;
+	    
         var objo;
-        fetch('https://api.scryfall.com/cards/named?fuzzy='+'aust+com'+'&format=json', {
+        fetch('https://api.scryfall.com/cards/named?fuzzy='+nameValue+'&format=json', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
