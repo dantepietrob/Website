@@ -16,7 +16,7 @@
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>Fetch Now!</button>
     <img id="image" src="https://i.imgur.com/mWiVVwU.jpg">
-    <p id="texto" class='text'>OKAY NOW it's updated</p>
+    <p id="texto" class='text'>uppedd</p>
 
     <script>
         var objo;
@@ -29,10 +29,10 @@
            .then(response => response.json())
            .then(response => {objo = (response["image_uris"]["large"]);
                              })
-            //.then(() => {alert(objo);
-                        //});
+            .then(() => {document.getElementById("image").src = objo;
+                        });
         
-        alert(objo);
+        
         
     </script>
         
