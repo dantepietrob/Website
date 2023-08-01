@@ -32,7 +32,16 @@
         
         
         
-        <img id="fucker" alt="Smiley face" src="https://api.scryfall.com/cards/named?fuzzy=aust+com&format=image">
+        <img id="fucker" alt="Smiley face" src="">
+        <script>
+            fetch('https://any-anime.p.rapidapi.com/anime/img')
+                .then(response => response.blob())
+                .then(data => {
+                  
+                })
+                .catch(error => console.error(error));
+            }
+        </script>
         
 
         <!-- Image of smiley face -->
