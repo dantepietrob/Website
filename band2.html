@@ -26,9 +26,7 @@
             },
         })
            .then(response => response.json())
-           .then(response => let jsonData = JSON.parse(response));
-        let texties = jsonData["name"];
-        alert(texties);
+           .then(response => alert(JSON.parse(response)["name"]))
         
     </script>
         
