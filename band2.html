@@ -26,8 +26,15 @@
        
        
 
-        <p id="id1" class=text>My P 1</p>
+        <p id="demo" class=text>My P 1</p>
 
+        <script>
+            let file = "https://api.scryfall.com/cards/named?fuzzy=aust+com&format=text"
+            fetch(file)
+            .then(x => x.text())
+            .then(y => document.getElementById("demo").innerHTML = y);
+        </script>
+        
         
 
         
@@ -38,7 +45,7 @@
         
 
         <button type="button"
-        onclick="document.getElementById('id1').style.color = 'red'">
+        onclick="document.getElementById('demo').style.color = 'red'">
         Click Me!</button>
         
         
