@@ -19,18 +19,14 @@
     <p id="texto" class='text'>Hell fucker</p>
 
     <script>
-        let btn = document.getElementById("buttonclick");
-        let text = document.getElementById("texto");
-
-        btn.addEventListener('click', function () {
-            alert("fucke you")
-            fetch("https://api.scryfall.com/cards/named?fuzzy=aust+com&format=image")
-                .then(res => res.jpg())
-                .then(result => {
-                    document.getElementById("image").src = result
-                })
-            .catch(err=>console.log(err))
+        fetch('https://api.scryfall.com/cards/named?fuzzy=aust+com&format=json', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+            },
         })
+           .then(response => response.json())
+           .then(response => alert(JSON.stringify(response)))
     </script>
         
         
