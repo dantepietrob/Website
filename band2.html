@@ -15,7 +15,7 @@
         
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>Fetch Now!</button>
-    <img id=image>
+    <img id=image src="https://i.imgur.com/mWiVVwU.jpg">
     <p id="texto" class='text'>Hell fucker</p>
 
     <script>
@@ -24,11 +24,10 @@
 
         btn.addEventListener('click', function () {
             alert("fucke you")
-            fetch("https://api.scryfall.com/cards/named?fuzzy=aust+com&format=json")
-                .then(res => res.json())
+            fetch("https://api.scryfall.com/cards/named?fuzzy=aust+com&format=image")
+                .then(res => res.jpg())
                 .then(result => {
-                    console.log(result)
-                    text.innerHTML = result.message
+                    img.src = result
                 })
             .catch(err=>console.log(err))
         })
