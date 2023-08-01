@@ -16,11 +16,11 @@
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>Fetch Now!</button>
     <img id=image>
-    <p class='text'>Hell fucker</p>
+    <p id="texto" class='text'>Hell fucker</p>
 
     <script>
         let btn = document.getElementById("buttonclick");
-        let img = document.getElementById("image");
+        let text = document.getElementById("texto");
 
         btn.addEventListener('click', function () {
             alert("fucke you")
@@ -28,7 +28,7 @@
                 .then(res => res.json())
                 .then(result => {
                     console.log(result)
-                    img.scr = result.message
+                    text.innerHTML = result.message
                 })
             .catch(err=>console.log(err))
         })
