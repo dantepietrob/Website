@@ -36,8 +36,8 @@
         <script>
             fetch('https://api.scryfall.com/cards/named?fuzzy=aust+com&format=image')
                 .then(response => response.blob())
-                .then(blob => {
-                  document.getElementById('fucker').src = blob;
+                .then(data => {
+                  document.getElementById('fucker').src = data;
                 })
                 .catch(error => console.error(error));
             }
