@@ -16,7 +16,7 @@
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>This button does nothing</button>
     <img id="image" src="https://i.imgur.com/mWiVVwU.jpg">
-    <p id="texto" class='text'>Updated</p>
+    <p id="texto" class='text'>Recently Updated</p>
 
 
       <input type="text" name="name" id="uniqueID" value="value" />
@@ -34,7 +34,7 @@
   
 
         var objo;
-        fetch('https://api.scryfall.com/cards/named?fuzzy=aust+com&format=json', {
+        fetch('https://api.scryfall.com/cards/named?fuzzy='+'aust+com'+'&format=json', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
