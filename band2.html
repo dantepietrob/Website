@@ -26,7 +26,10 @@
             },
         })
            .then(response => response.json())
-           .then(response => alert(JSON.stringify(response)))
+           .then(response => let jsonData = JSON.parse(response));
+        let texties = jsonData["name"];
+        alert(texties);
+        
     </script>
         
         
