@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
+<cards>
 
-  <book category="cooking">
+  <card category="cooking">
     <title lang="en">Everyday Your Italian Fucker</title>
     <author>Hitler is not my friend</author>
     <year>Kiss my fat butt</year>
     <price>39.00</price>
-  </book>
+  </card>
 
-</bookstore>
+</cards>
