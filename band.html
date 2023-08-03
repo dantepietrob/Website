@@ -19,7 +19,7 @@
 			};
 
 			// employee.xml is the external xml file
-			xmlhttp.open("GET", "beefed.xml", true);
+			xmlhttp.open("GET", "starterDecks.xml", true);
 			xmlhttp.send();
 		}
 		
@@ -29,14 +29,14 @@
 			
 			const array = [];
 			
-			var x = xmlDoc.getElementsByTagName("book");
+			var x = xmlDoc.getElementsByTagName("1Cost");
+			var y = x.getElementsByTagName("card");
 
 			// Start to fetch the data by using TagName
-			for (i = 0; i < x.length; i++) {
-				array.push(x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue);
-				array.push(x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue);
-				array.push(x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue);
-				array.push(x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue);
+			for (i = 0; i < y.length; i++) {
+				array.push(y[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+				array.push(y[i].getElementsByTagName("category")[0].childNodes[0].nodeValue);
+				
 					
 			}
 
