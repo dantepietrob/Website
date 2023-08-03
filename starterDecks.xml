@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <cards>
-	
-	  <card>
-		<name>Doomed Traveler</name>
-		<category>Creature</category>
-	  </card>
-  
+
+  <card>
+    <name>Everyday Italian</title>
+    <category>Giada De Laurentiis</author>
+  </card>
 
 </cards>
