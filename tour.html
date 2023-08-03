@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-	<title>UPDATED Reads the XML data using JavaScript</title>
+	<title>Reads the XML data using JavaScript</title>
 
 	<!-- CSS -->
 	<style>
@@ -75,7 +75,6 @@
 
 			// Start to fetch the data by using TagName
 			for (i = 0; i < x.length; i++) {
-				alert(x[i].category);
 				table += "<tr><td>" +
 					x[i].getElementsByTagName("title")[0]
 					.childNodes[0].nodeValue + "</td><td>" +
