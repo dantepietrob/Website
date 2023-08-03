@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <cards>
-	<1Cost> 
-
+	
 	  <card>
 		<name>Doomed Traveler</name>
 		<category>Creature</category>
 	  </card>
   
-  </1Cost>
-  
-  <2Cost> 
-
-	  <card>
-		<name>Wanderer's Intervention</name>
-		<category>Removal</category>
-	  </card>
-  
-  </2Cost>
 
 </cards>
