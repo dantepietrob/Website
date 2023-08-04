@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cards>
-
-  <card>
-    <name>Everyday I'm Fuckerinn, Bitch</name>
-    <author>Hitler is not my friend</author>
-  </card>
+  <onecost>
+    <card>
+      <name>Everyday I'm Fuckerinn, Bitch</name>
+      <author>Hitler is not my friend</author>
+    </card>
+  </onecost>
 
 </cards>
