@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-	<title>Site Updated 5:20 8/3/2023</title>
+	<title>Site Updated 17:40 8/3/2023</title>
 
 	
 
@@ -29,12 +29,15 @@
 			
 			const array = [];
 			
-			var x = xmlDoc.getElementsByTagName("card");
+			var x = xmlDoc.getElementsByTagName("onecost");
+			if (x.hasChildNodes()) {
+  				let y = x.childNodes;
+			}
 
 			// Start to fetch the data by using TagName
-			for (i = 0; i < x.length; i++) {
-				array.push(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
-				array.push(x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue);	
+			for (i = 0; i < y.length; i++) {
+				array.push(y[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+				array.push(y[i].getElementsByTagName("author")[0].childNodes[0].nodeValue);	
 			}
 
 			// Print the xml data in table form
