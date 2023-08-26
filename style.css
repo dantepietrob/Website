@@ -18,9 +18,11 @@ body {
 
 ul {
   white-space: nowrap;
+    font-size: 0;
 }
 ul, li {
   
   list-style: none;
   display: inline;
+    font-size: 0;
 }
