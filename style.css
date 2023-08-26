@@ -16,6 +16,10 @@ body {
   border: 3px solid green;
 }
 
+.img {
+    vertical-align: bottom;
+}
+
 #fucker {
     width: 300px;
     height: auto;
