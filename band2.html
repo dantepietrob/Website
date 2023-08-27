@@ -15,11 +15,13 @@
                 var mydata = JSON.parse(data);
                 alert(mydata.length);
 
-                
+                for(var i = 0; i < mydata.length; i++)
+                {
 
                 
-		var div = document.getElementById('1');
+		var div = document.getElementById(i);
                 div.innerHTML = 69;
+		}
                 
             }
         </script>
@@ -51,11 +53,11 @@
 	</ul>
 
 	<ul>
+	    <li style="text-align: center;"><span class='text' id='0' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
 	    <li style="text-align: center;"><span class='text' id='1' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	    <li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">2</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">1</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 0px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text' id='2' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text'  id='3' style="font-size: 40; margin: 0px 0px 0px 190px">2</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text'  id='4' style="font-size: 40; margin: 0px 0px 0px 190px">1</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 0px 5px 5px"></li>
 	</ul>
 
 
