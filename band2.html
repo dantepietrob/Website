@@ -8,10 +8,30 @@
         <title>MTG Query Page</title>
         <link rel="stylesheet" href="style.css">
 
+
+	<script type="text/javascript" src="cardlist.json"></script>
+        <script type="text/javascript" >
+            function load() {
+                var mydata = JSON.parse(data);
+                alert(mydata.length);
+
+                
+
+                
+		var div = document.getElementById('1');
+                div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name + ": " + mydata[i].sexy +"</p>" + "<br>";
+                
+            }
+        </script>
+
     </head>    
 
+	
+    
+    
 
-    <body> 
+
+    <body onload="load()"> 
         
     <h1 class='text'>Fetch Data</h1>
     <button id=buttonclick>This button does nothing</button>
@@ -31,7 +51,7 @@
 	</ul>
 
 	<ul>
-	    <li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	    <li style="text-align: center;"><span class='text' id='1' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
 	    <li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
 	<li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
 	<li style="text-align: center;"><span class='text' style="font-size: 40; margin: 0px 0px 0px 190px">2</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
