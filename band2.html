@@ -24,6 +24,21 @@
 		var div = document.getElementById(i);
                 div.innerHTML = mydata[Math.floor(Math.random() * mydata.length)].cost;
 		}
+
+		var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name
+	    
+	        var objo;
+	        fetch('https://api.scryfall.com/cards/named?fuzzy='+nameValue+'&format=json', {
+	            method: 'GET',
+	            headers: {
+	                'Accept': 'application/json',
+	            },
+	        })
+	           .then(response => response.json())
+	           .then(response => {objo = (response["image_uris"]["large"]);
+	                             })
+	            .then(() => {document.getElementById("image").src = objo;
+	                        });
                 
             }
         </script>
