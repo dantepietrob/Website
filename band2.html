@@ -27,7 +27,7 @@
 
 		var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name
 	    
-	        var objo;
+	        var objo = null;
 	        fetch('https://api.scryfall.com/cards/named?fuzzy='+nameValue+'&format=json', {
 	            method: 'GET',
 	            headers: {
