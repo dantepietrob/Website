@@ -15,12 +15,14 @@
                 var mydata = JSON.parse(data);
                 alert(mydata.length);
 
-                for(var i = 0; i < mydata.length; i++)
+		    
+		
+                for(var i = 0; i < 5; i++)
                 {
 
                 
 		var div = document.getElementById(i);
-                div.innerHTML = mydata[i].cost;
+                div.innerHTML = mydata[Math.floor(Math.random() * mydata.length)].cost;
 		}
                 
             }
