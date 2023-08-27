@@ -75,7 +75,8 @@
 	    
         function myFunction() {
   
-        var nameValue = document.getElementById("uniqueID").value;
+        //var nameValue = document.getElementById("uniqueID").value;
+	var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name
 	    
         var objo;
         fetch('https://api.scryfall.com/cards/named?fuzzy='+nameValue+'&format=json', {
