@@ -21,9 +21,9 @@
                 {
 
                 
-		var div = document.getElementById(i);
+		var div = document.getElementById("cost"+i);
                 div.innerHTML = mydata[Math.floor(Math.random() * mydata.length)].cost;
-		}
+		
 
 		var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name
 	    
@@ -37,9 +37,9 @@
 	           .then(response => response.json())
 	           .then(response => {objo = (response["image_uris"]["large"]);
 	                             })
-	            .then(() => {document.getElementById("image").src = objo;
+	            .then(() => {document.getElementById("image"+i).src = objo;
 	                        });
-                
+		}
             }
         </script>
 
@@ -62,19 +62,19 @@
       <input type="text" name="name" id="uniqueID" value="value"><br>
       	
       	<ul>
-	    <li><img id="image" src="https://i.imgur.com/cfWR5xm.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
-	    <li><img src="https://i.imgur.com/nZhNO8N.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
-	    <li><img src="https://i.imgur.com/Td7tVZq.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
-	    <li><img src="https://i.imgur.com/zs6P9mX.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
-	    <li><img src="https://i.imgur.com/a2ujse5.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image0" src="https://i.imgur.com/cfWR5xm.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image1" src="https://i.imgur.com/nZhNO8N.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image2" src="https://i.imgur.com/Td7tVZq.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image3" src="https://i.imgur.com/zs6P9mX.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image4" src="https://i.imgur.com/a2ujse5.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
 	</ul>
 
 	<ul>
-	    <li style="text-align: center;"><span class='text' id='0' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	    <li style="text-align: center;"><span class='text' id='1' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text' id='2' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text'  id='3' style="font-size: 40; margin: 0px 0px 0px 190px">2</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
-	<li style="text-align: center;"><span class='text'  id='4' style="font-size: 40; margin: 0px 0px 0px 190px">1</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 0px 5px 5px"></li>
+	    <li style="text-align: center;"><span class='text' id='cost0' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	    <li style="text-align: center;"><span class='text' id='cost1' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text' id='cost2' style="font-size: 40; margin: 0px 0px 0px 190px">3</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text'  id='cost3' style="font-size: 40; margin: 0px 0px 0px 190px">2</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 40px 5px 5px"></li>
+	<li style="text-align: center;"><span class='text'  id='cost4' style="font-size: 40; margin: 0px 0px 0px 190px">1</span><img class="img" src="https://i.imgur.com/57IrzxA.png" style="width:5%; margin: 5px 0px 5px 5px"></li>
 	</ul>
 
 
