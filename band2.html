@@ -60,7 +60,7 @@
         onclick="myFunction()">
         Click Me!</button>
     
-    <p id="texto" class='text'>Site Updated 2/9 8:41</p>
+    <p id="texto" class='text'>Site Updated 2/9 8:43</p>
     <p id="moretext" class='text'>Enter a cardname:</p>
 
 
@@ -114,7 +114,7 @@
            .then(response => {objo = (response["image_uris"]["large"]);
                              })
            
-	   .then(() => {document.getElementById("image"+i).src = objo;
+	   .then(() => {document.getElementById("image" + Number(i)).src = objo;
                         });
 
         }
