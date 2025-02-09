@@ -60,7 +60,7 @@
         onclick="myFunction()">
         Click Me!</button>
     
-    <p id="texto" class='text'>Site Updated 8:15 2/9</p>
+    <p id="texto" class='text'>Site Updated 8:18 2/9</p>
     <p id="moretext" class='text'>Enter a cardname:</p>
 
 
@@ -99,7 +99,7 @@
 	//var nameValue = document.getElementById("uniqueID").value;
 	var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name;
 	//var nameValue = "Dragon"
-	document.getElementById("cost0").innerHTML = document.getElementById("cost0").innerHTML + 1;
+	document.getElementById("cost0").innerHTML = Number(document.getElementById("cost0").innerHTML) + 1;
         var objo;
         fetch('https://api.scryfall.com/cards/named?fuzzy='+nameValue+'&format=json', {
             method: 'GET',
