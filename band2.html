@@ -60,14 +60,14 @@
         onclick="myFunction()">
         Click Me!</button>
     
-    <p id="texto" class='text'>Site Updated 2/9 8:43</p>
+    <p id="texto" class='text'>Site Updated 2/9 8:45</p>
     <p id="moretext" class='text'>Enter a cardname:</p>
 
 
       <input type="text" name="name" id="uniqueID" value="value"><br>
       	
       	<ul>
-	    <li><img id="image" src="https://i.imgur.com/cfWR5xm.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
+	    <li><img id="image0" src="https://i.imgur.com/cfWR5xm.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
 	    <li><img id="image1" src="https://i.imgur.com/nZhNO8N.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
 	    <li><img id="image2" src="https://i.imgur.com/Td7tVZq.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
 	    <li><img id="image3" src="https://i.imgur.com/zs6P9mX.png" style="width:17%; margin: 20px 20px 0px 0px"></li>
@@ -97,7 +97,7 @@
   
         var mydata = JSON.parse(data);
 	
-	for (let i = 0; i < cars.length; i++) {
+	for (let i = 0; i < 4; i++) {
   
 	//var nameValue = document.getElementById("uniqueID").value;
 	var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name;
