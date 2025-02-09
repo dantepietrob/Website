@@ -60,7 +60,7 @@
         onclick="myFunction()">
         Click Me!</button>
     
-    <p id="texto" class='text'>Site Updated 8:18 2/9</p>
+    <p id="texto" class='text'>Site Updated 2/9 8:41</p>
     <p id="moretext" class='text'>Enter a cardname:</p>
 
 
@@ -96,6 +96,9 @@
         function myFunction() {
   
         var mydata = JSON.parse(data);
+	
+	for (let i = 0; i < cars.length; i++) {
+  
 	//var nameValue = document.getElementById("uniqueID").value;
 	var nameValue = mydata[Math.floor(Math.random() * mydata.length)].name;
 	//var nameValue = "Dragon"
@@ -110,12 +113,12 @@
            .then(response => response.json())
            .then(response => {objo = (response["image_uris"]["large"]);
                              })
-           .then(() => {document.getElementById("image").src = objo;
-                        })
-	   .then(() => {document.getElementById("image1").src = objo;
+           
+	   .then(() => {document.getElementById("image"+i).src = objo;
                         });
 
         }
+	}
         
         
     </script>
