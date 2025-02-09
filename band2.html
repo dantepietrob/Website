@@ -110,7 +110,9 @@
            .then(response => response.json())
            .then(response => {objo = (response["image_uris"]["large"]);
                              })
-            .then(() => {document.getElementById("image").src = objo;
+           .then(() => {document.getElementById("image").src = objo;
+                        })
+	   .then(() => {document.getElementById("image1").src = objo;
                         });
 
         }
